@@ -1,0 +1,180 @@
+header {
+        background-image:url(images/photo1.png);
+        height:800px;
+}
+header ul li{
+        display:inline;
+}
+header ul li a{
+        text-decoration:none;
+		border:transparent 1px solid;
+        color:white;
+}
+header ul li a:hover {
+        border:#00FFFF 1px solid;
+        color:#01C9DF;
+}
+header ul li a {
+        padding-left:20px;
+        padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+}
+.zero {
+        /*display:flex;*/
+}
+.bandeau {
+        background-color:#505054;
+        opacity:0.5;
+        width:100%;
+		display:flex;
+}
+.one {
+        padding-left:15%;
+}
+.two {
+        margin-left:15%;
+		margin-right:0;
+		padding-right:15%;
+		width:100%;
+}
+#nav {
+        /*margin-left:40%;*/
+}
+.three {
+        text-align:center;
+        margin-top:15%;
+        font-size: 50px;
+        color: white;
+        padding-left:10%;
+        padding-right:10%;
+        font-family:fantasy;
+}
+.p1 {
+        background-color:grey;
+        margin-left:18%;
+        margin-right:18%;
+        margin-bottom:1%;
+}
+.p2 {
+        background-color:grey;
+        margin-left:6%;
+        margin-right:6%;
+        margin-top:1%;
+		margin-bottom:0;
+}
+.B {
+        color: white; 
+        font-size:35px;
+}
+.L {
+        color: white;
+        font-size:35px;
+}
+.U {
+        color:white;
+        font-size:35px;
+}
+.E {
+        color:rgb(75,202,255);
+        font-size:35px;
+}
+.A {
+        color:white;
+        font-size:35px;
+}
+.S {
+        color:white;
+        font-size:35px;
+}
+.Y {
+        color: white;
+        font-size:35px;
+}
+h2 {
+        font-size:30px;
+        font-weight:100;
+        margin-top:0px;
+}
+/*----------------services------------------*/
+.services {
+        background-color:rgb(75,202,255);
+        color: white;
+}
+.s {
+        text-decoration:underline;
+}
+section p {
+        text-align:justify;
+}
+h4 {
+        font-size:33px;
+        font-weight:100;
+}
+
+.paraphservices
+{
+	    display:inline-block;
+        padding-right:2%;
+        width:23%;
+		font-size:15px;
+}
+
+.frame {
+        display:inline-block;
+        width:23%;
+        font-size:15px;
+}
+
+section h4
+{
+	margin-bottom:1%;
+	margin-top:5%;
+}
+
+/*----------------contacts------------------*/
+.contact {
+        background-image:url(images/layer1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+        color: white;
+}
+.champ1 {
+        height:50px;
+        border:2px solid white;
+		width: 100%;
+}
+.champ2 {
+        border:2px solid white;
+		width: 100%;
+}
+.champ3 {
+        height:40px;
+        width:400px;
+        background-color:rgb(75,202,255);
+        border:1px solid rgb(75,202,255);
+        color:white;
+        text-align:center;
+}
+.formulaire {
+		margin-right:10%;
+		width:50%;
+}
+.text {
+        margin-right:0;
+		width:50%;
+		font-size:small;
+		line-height:2;
+}
+
+
+
+.testalignform
+{
+	display:flex;
+}
+
+.testtextform
+{
+	width:100%;
+}

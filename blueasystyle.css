@@ -1,0 +1,174 @@
+/*GENERAL*/
+.aligncontent
+{
+	display: flex;
+}
+
+.paddingpage
+{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.fontpage
+{
+	font-family:sans-serif;
+}
+
+.h2title
+{
+	text-decoration: underline;
+	margin-top: 0;
+}
+
+.bluesection
+{
+	color: white;
+	background-color: rgb(75,202,255);
+
+}
+
+.greytext
+{
+	color: grey;
+}
+
+/*PORTFOLIO*/
+
+.menuright
+{
+	margin-left: auto;
+	margin-right:0;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+}
+
+.portfoliomenu li
+{
+	display: inline;
+	list-style-type:none;
+	margin: auto;
+}
+
+.portfoliomenu li a
+{
+	text-decoration: none;
+	color: grey;
+	border: 2px solid transparent;
+	padding: 5px;
+}
+
+.portfoliomenu li a:hover
+{
+	border: 2px solid rgb(75,202,255);
+	padding: 5px;
+	color: rgb(75,202,255);
+}
+
+ .portfolioimages
+{
+	display: flex;
+	margin-bottom: 5%;
+}
+.image {
+    position:relative;
+    width:20%;
+    height:20%;
+	margin:auto;
+}
+
+.portofogauche
+{
+	margin-left: 0;
+}
+
+.portfodroite
+{
+	margin-right: 0;
+}  
+
+.menuportfolio
+{
+	margin-bottom:5%;
+}
+
+/*Hoverlay*/
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+.image:after, .image:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+.image:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+	top:40%;
+    text-align:center;
+	font-size: 50px;
+}
+.image:hover:after, .image:hover:before {
+    opacity:1;
+}
+
+/* TWITTER*/
+.twitterlogo
+{
+	margin-left:auto; 
+	margin-right:0;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+}
+
+.twitterfont
+{
+	font-size: x-large;
+	letter-spacing:3px;
+}
+.bold
+{
+	font-weight: bold;
+}
+
+/*WHO IS JOHN DOE?*/
+.whoissection
+{
+	background-image: url("images/photographmodified.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 11%;
+	line-height:2;
+}
+
+.textwhois
+{
+	padding-right:5%;
+}
+.iconwhois i
+{
+	margin-right:3%;
+}
+
+
+
+
+
+
+

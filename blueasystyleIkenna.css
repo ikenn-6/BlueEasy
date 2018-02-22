@@ -1,0 +1,121 @@
+.footer
+{
+    background-color: #2e2e32;
+	display:flex;
+	color: #49424f;
+}
+.lala
+{
+    /*padding-left: 401px;*/
+    
+}
+.alignerdroite
+{
+	/*padding-right: 401px;*/
+    /*float: right;*/
+	margin-left: auto;
+	margin-right: 0;    
+}
+.ligne_verticale
+{
+    width: 6%;
+    border-left:3px solid gray;
+    height:70px;
+}
+.monstyle 
+{ 
+    text-decoration: underline;  
+}
+.bleuciel
+{
+        
+        color: rgb(75,202,255);
+}
+
+.noir
+{
+        
+        color: black;
+}
+
+.lili
+{
+        
+        text-align: center;
+}
+.bebe
+{
+        
+        /*color: #808080;*/
+}
+
+
+
+
+.centrer
+{
+	display:flex;
+}
+.imagequote
+{
+	margin-left: auto;
+	margin-right:0;
+}
+.texttestimonials
+{
+	font-size: large;
+}
+.testimonials
+{
+	color: #808080;
+	font-weight:100;
+	letter-spacing:3px;
+	line-height:2;
+}
+
+.justdefault
+{
+	background-color: #474755;
+	color: white;
+}
+.visitme
+{
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 15px 40px;
+}
+
+.visitme:hover
+{
+	border: 2px solid rgb(75,202,255);
+	color: rgb(75,202,255);
+}
+
+.justdefault h2
+{
+	margin-bottom:10%;
+}
+
+.justdefault p
+{
+	margin-bottom:10%;
+}
+
+.top
+{
+	margin-right:0;
+	margin-left:20%;	
+
+}
+
+.textjustdef
+{
+	line-height:2;
+}
+
+.top iframe
+{
+	width:175%;
+	height:80%;
+}
